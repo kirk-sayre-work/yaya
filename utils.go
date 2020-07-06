@@ -10,7 +10,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hillu/go-yara"
+//	"github.com/hillu/go-yara"
+	"github.com/hillu/go-yara/v4"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )

@@ -15,8 +15,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-git/go-git"
-	"github.com/hillu/go-yara"
+//	"github.com/go-git/go-git"
+	"gopkg.in/src-d/go-git.v4"
+//	"github.com/hillu/go-yara"
+	"github.com/hillu/go-yara/v4"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )
